@@ -1,0 +1,1746 @@
+﻿Log file open, 08/31/20 15:00:57
+LogInit: Display: Running engine for game: CoffeeBandicoot
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.331220
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: B:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.31-03.00.57:937][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.31-03.00.57:937][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.31-03.00.57:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.31-03.00.57:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:938][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:946][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-03.00.57:946][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-03.00.57:946][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-03.00.57:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-03.00.57:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-03.00.57:948][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.31-03.00.57:949][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-03.00.57:949][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.31-03.00.57:949][  0]LogHAL: Display: Platform has ~ 18 GB [19208839168 / 34359738368 / 18], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.31-03.00.57:949][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-03.00.57:949][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.31-03.00.57:950][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.31-03.00.57:952][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.31-03.00.57:952][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.31-03.00.57:952][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.31-03.00.57:952][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.00.57:952][  0]LogInit: Computer: WILL-PC
+[2020.08.31-03.00.57:952][  0]LogInit: User: Will
+[2020.08.31-03.00.57:952][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.31-03.00.57:952][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.31-03.00.57:952][  0]LogMemory: Memory total: Physical=17.9GB (18GB approx)
+[2020.08.31-03.00.57:952][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.31-03.00.57:952][  0]LogMemory: Process Physical Memory: 113.55 MB used, 113.55 MB peak
+[2020.08.31-03.00.57:952][  0]LogMemory: Process Virtual Memory: 95.93 MB used, 95.93 MB peak
+[2020.08.31-03.00.57:952][  0]LogMemory: Physical Memory: 7860.38 MB used,  10458.60 MB free, 18318.98 MB total
+[2020.08.31-03.00.57:952][  0]LogMemory: Virtual Memory: 5141.16 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.08.31-03.00.57:960][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.31-03.00.58:019][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.31-03.00.58:021][  0]LogInit: Using OS detected language (en-US).
+[2020.08.31-03.00.58:022][  0]LogInit: Using OS detected locale (en-NZ).
+[2020.08.31-03.00.58:043][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.31-03.00.58:554][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.31-03.00.58:655][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.31-03.00.58:655][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.31-03.01.02:169][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.31-03.01.02:169][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.31-03.01.02:169][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.31-03.01.02:256][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.08.31-03.01.02:256][  0]LogD3D11RHI:       8088/0/9159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.31-03.01.02:311][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.08.31-03.01.02:311][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.08.31-03.01.02:318][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.31-03.01.02:318][  0]LogD3D11RHI:       0/0/9159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.31-03.01.02:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.31-03.01.02:328][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.31-03.01.02:328][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.31-03.01.02:328][  0]LogWindows: EnumDisplayDevices:
+[2020.08.31-03.01.02:329][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.08.31-03.01.02:330][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.08.31-03.01.02:330][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.08.31-03.01.02:331][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.08.31-03.01.02:331][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.31-03.01.02:332][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.31-03.01.02:332][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.31-03.01.02:333][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.08.31-03.01.02:333][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.08.31-03.01.02:333][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.08.31-03.01.02:333][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.08.31-03.01.02:333][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.08.31-03.01.02:393][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.31-03.01.02:397][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.31-03.01.02:397][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.31-03.01.02:397][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.31-03.01.02:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.31-03.01.03:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.31-03.01.03:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.31-03.01.03:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.31-03.01.03:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.31-03.01.03:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.31-03.01.03:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.31-03.01.03:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.31-03.01.03:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.31-03.01.03:424][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.31-03.01.03:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.31-03.01.03:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.31-03.01.03:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.31-03.01.03:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.31-03.01.03:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.31-03.01.03:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.31-03.01.03:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.31-03.01.03:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.31-03.01.03:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.31-03.01.03:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.31-03.01.03:558][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.31-03.01.03:573][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.31-03.01.03:666][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Intermediate/Shaders/WorkingDirectory/12336/).
+[2020.08.31-03.01.03:667][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Will/AppData/Local/Temp/UnrealShaderWorkingDir/8F7CA3894A7C2580B7918CA113D79B83/'.
+[2020.08.31-03.01.03:667][  0]LogXGEController: Cleaning working directory: C:/Users/Will/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.31-03.01.03:668][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.31-03.01.03:668][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.31-03.01.03:668][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.31-03.01.07:431][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.31-03.01.07:918][  0]LogDerivedDataCache: Loaded boot cache 0.49s 75MB C:/Users/Will/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.31-03.01.07:919][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Will/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.31-03.01.07:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.31-03.01.07:919][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.31-03.01.07:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-03.01.07:919][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.31-03.01.07:935][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.31-03.01.07:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-03.01.07:935][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.31-03.01.07:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Will/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.31-03.01.07:937][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.31-03.01.07:937][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.31-03.01.08:008][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.31-03.01.08:009][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.31-03.01.08:060][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.08.31-03.01.08:463][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-03.01.08:813][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.31-03.01.08:813][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.31-03.01.08:813][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.31-03.01.08:813][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.31-03.01.08:813][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.31-03.01.08:875][  0]LogNetVersion: CoffeeBandicoot 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2363953140)
+[2020.08.31-03.01.10:800][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000207D9842A00), frame # 0
+[2020.08.31-03.01.10:800][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207D96E51C0), frame # 0
+[2020.08.31-03.01.10:802][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207D983AA00), frame # 0
+[2020.08.31-03.01.10:891][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.067899 seconds
+[2020.08.31-03.01.10:898][  0]LogUObjectArray: 15814 objects as part of root set at end of initial load.
+[2020.08.31-03.01.10:898][  0]LogUObjectAllocator: 3939424 out of 0 bytes used by permanent object pool.
+[2020.08.31-03.01.10:898][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.31-03.01.11:707][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.31-03.01.11:713][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.31-03.01.11:849][  0]SourceControl: Source control is disabled
+[2020.08.31-03.01.12:964][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.31-03.01.12:998][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.31-03.01.12:998][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.31-03.01.13:098][  0]LogOcInput: OculusInput pre-init called
+[2020.08.31-03.01.13:111][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.31-03.01.13:111][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.31-03.01.13:229][  0]LogEngine: Initializing Engine...
+[2020.08.31-03.01.13:230][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.31-03.01.13:231][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.31-03.01.13:645][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.31-03.01.13:655][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.31-03.01.13:656][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207DC2FFC00), frame # 0
+[2020.08.31-03.01.13:656][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207DC359800), frame # 0
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.31-03.01.13:661][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.31-03.01.13:661][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.31-03.01.13:662][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.31-03.01.13:662][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.31-03.01.13:711][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.31-03.01.13:711][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.31-03.01.13:798][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.08.31-03.01.13:801][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.31-03.01.13:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.31-03.01.13:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.31-03.01.13:823][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.31-03.01.13:824][  0]LogInit: FAudioDevice initialized.
+[2020.08.31-03.01.13:824][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.31-03.01.14:029][  0]LogDerivedDataCache: Saved boot cache 0.21s 75MB C:/Users/Will/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.31-03.01.14:034][  0]LogInit: Texture streaming: Enabled
+[2020.08.31-03.01.14:062][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.31-03.01.14:063][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={74BD2388-4037-375D-4FBF-A4B1170FF291}
+[2020.08.31-03.01.14:063][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.31-03.01.14:066][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.31-03.01.14:151][  0]LogInit: Transaction tracking system initialized
+[2020.08.31-03.01.14:190][  0]BlueprintLog: New page: Editor Load
+[2020.08.31-03.01.14:308][  0]LocalizationService: Localization service is disabled
+[2020.08.31-03.01.14:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.31-03.01.14:844][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.31-03.01.15:203][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/' took 0.01s
+[2020.08.31-03.01.15:267][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.31-03.01.23:684][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.08.31-03.01.23:687][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.31-03.01.23:705][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.31-03.01.23:706][  0]LogUnrealEdMisc: Loading editor; pre map load, took 32.189
+[2020.08.31-03.01.23:707][  0]Cmd: MAP LOAD FILE="C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.31-03.01.23:709][  0]LightingResults: New page: Lighting Build
+[2020.08.31-03.01.23:711][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.01.23:711][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.01.23:711][  0]MapCheck: New page: Map Check
+[2020.08.31-03.01.23:711][  0]LightingResults: New page: Lighting Build
+[2020.08.31-03.01.23:722][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207DC2FFC00), frame # 0
+[2020.08.31-03.01.23:723][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207DC359800), frame # 0
+[2020.08.31-03.01.23:724][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.08.31-03.01.24:534][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:534][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:541][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:541][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:544][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:544][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:544][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:544][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:551][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:551][  0]LoadErrors: Failed to load /Game/Klip/SkyBox/M_ToonSky.M_ToonSky Referenced by SkySphereMesh_GEN_VARIABLE
+[2020.08.31-03.01.24:552][  0]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Levels/Level1.umap' failed to load '/Game/Klip/SkyBox/M_ToonSky': Can't find file.
+[2020.08.31-03.01.24:552][  0]LoadErrors: Failed to load /Game/Klip/SkyBox/M_ToonSky.M_ToonSky Referenced by SkySphereMesh_GEN_VARIABLE
+[2020.08.31-03.01.25:940][  0]LogAIModule: Creating AISystem for world Level1
+[2020.08.31-03.01.25:940][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207CF642600), frame # 0
+[2020.08.31-03.01.25:940][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207CB0F7600), frame # 0
+[2020.08.31-03.01.26:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.31-03.01.26:026][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.08.31-03.01.26:030][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.31-03.01.26:031][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.742ms to complete.
+[2020.08.31-03.01.26:031][  0]LogFileHelpers: Loading map 'Level1' took 2.324
+[2020.08.31-03.01.26:034][  0]LogUnrealEdMisc: Total Editor Startup Time, took 34.517
+[2020.08.31-03.01.26:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.01.26:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.01.26:219][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.01.26:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.01.26:249][  0]LogCollectionManager: Loaded 0 collections in 0.001219 seconds
+[2020.08.31-03.01.26:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Collections/' took 0.00s
+[2020.08.31-03.01.26:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/Developers/Will/Collections/' took 0.00s
+[2020.08.31-03.01.26:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/Collections/' took 0.00s
+[2020.08.31-03.01.26:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 3419 classes and 814 folders.
+[2020.08.31-03.01.26:277][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.01.26:812][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.01.26:814][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.08.31-03.01.26:955][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.31-03.01.26:970][  0]LogSlate: Took 0.009914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.31-03.01.27:093][  0]LogRenderer: Reallocating scene render targets to support 1096x576 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-03.01.27:260][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.01.27:260][  0]LogLoad: (Engine Initialization) Total time: 35.74 seconds
+[2020.08.31-03.01.27:260][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.31-03.01.27:377][  0]LogAssetRegistry: Asset discovery search completed in 19.3184 seconds
+[2020.08.31-03.01.27:383][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.08.31-03.01.27:387][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.31-03.01.27:516][  0]LogSlate: Took 0.007416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.31-03.01.29:035][165]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.01.29:040][165]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.10.05:280][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:280][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:280][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:280][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:281][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:281][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:282][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:282][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:282][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:282][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:283][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:283][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:283][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:283][261]LoadErrors: Failed to load /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton.aztec_face_door_Skeleton Referenced by bottomTeethDOWN
+[2020.08.31-03.10.05:284][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:284][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:284][261]LoadErrors: Failed to load /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton.aztec_face_door_Skeleton Referenced by AztecAnimMontage
+[2020.08.31-03.10.05:284][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:284][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:284][261]LoadErrors: Failed to load /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton.aztec_face_door_Skeleton Referenced by topTeethUP
+[2020.08.31-03.10.05:284][261]LogLinker: Warning: While loading 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset' failed to load '/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_Skeleton': Can't find file.
+[2020.08.31-03.10.05:302][261]LogSlate: Took 0.007338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.31-03.10.05:324][261]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.AztecAnimMontage
+[2020.08.31-03.10.07:863][261]LogSlate: Window 'Message' being destroyed
+[2020.08.31-03.10.07:869][261]Message dialog closed, result: No, title: Message, text: Could not find the skeleton for Anim 'AztecAnimMontage' Would you like to choose a new one?
+[2020.08.31-03.10.09:675][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.08.31-03.10.10:451][454]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.10.10:694][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.31-03.10.10:705][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.08.31-03.10.10:715][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.08.31-03.10.10:735][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.08.31-03.10.10:745][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.08.31-03.10.10:943][454]SourceControl: rm 'Content/CoffeeBandicoot/Props/Aztec/AztecAnimMontage.uasset'
+[2020.08.31-03.10.10:943][454]SourceControl: rm 'Content/CoffeeBandicoot/Props/Aztec/bottomTeethDOWN.uasset'
+[2020.08.31-03.10.10:943][454]SourceControl: rm 'Content/CoffeeBandicoot/Props/Aztec/topTeethUP.uasset'
+[2020.08.31-03.10.28:532][143]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx)
+[2020.08.31-03.10.28:580][143]LogFbx: Loading FBX Scene from C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx
+[2020.08.31-03.10.28:605][143]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.31-03.10.33:143][143]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.31-03.10.33:189][143]LogFbx: Triangulating skeletal mesh aztec_face_door_main
+[2020.08.31-03.10.33:315][143]LogFbx: Triangulating skeletal mesh aztec_face_upper_teeth
+[2020.08.31-03.10.33:322][143]LogFbx: Triangulating skeletal mesh aztec_tooth_u_1
+[2020.08.31-03.10.33:332][143]LogFbx: Triangulating skeletal mesh aztec_tooth_u_2
+[2020.08.31-03.10.33:340][143]LogFbx: Triangulating skeletal mesh aztec_tooth_u_3
+[2020.08.31-03.10.33:348][143]LogFbx: Triangulating skeletal mesh aztec_tooth_u_4
+[2020.08.31-03.10.33:357][143]LogFbx: Triangulating skeletal mesh aztec_tooth_lower
+[2020.08.31-03.10.33:364][143]LogFbx: Triangulating skeletal mesh aztec_tooth_l_1
+[2020.08.31-03.10.33:372][143]LogFbx: Triangulating skeletal mesh aztec_tooth_l_2
+[2020.08.31-03.10.33:380][143]LogFbx: Triangulating skeletal mesh aztec_tooth_l_3
+[2020.08.31-03.10.33:389][143]LogFbx: Triangulating skeletal mesh aztec_tooth_l_4
+[2020.08.31-03.10.33:399][143]LogFbx: Triangulating skeletal mesh aztec_face_ crown_3
+[2020.08.31-03.10.33:415][143]LogFbx: Triangulating skeletal mesh aztec_face_crown_1
+[2020.08.31-03.10.33:432][143]LogFbx: Triangulating skeletal mesh aztec_face_crown_2
+[2020.08.31-03.10.33:449][143]LogFbx: Triangulating skeletal mesh aztec_face_crown_jewel
+[2020.08.31-03.10.33:459][143]LogFbx: Triangulating skeletal mesh aztec_face_brow
+[2020.08.31-03.10.33:501][143]LogFbx: Triangulating skeletal mesh aztec_face_eyes
+[2020.08.31-03.10.33:514][143]LogFbx: Triangulating skeletal mesh aztec_face_nose
+[2020.08.31-03.10.33:531][143]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 3
+[2020.08.31-03.10.33:812][143]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.10.33:813][143]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.10.33:817][143]LogSkeletalMesh: Building Skeletal Mesh aztec_face_door_WILL...
+[2020.08.31-03.10.34:075][143]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.10.34:076][143]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.10.34:098][143]LogSkeletalMesh: Built Skeletal Mesh [0.28s] /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.10.34:114][143]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.34:115][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.10.34:119][143]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.10.34:120][143]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.10.34:121][143]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_face_upper_teethAction.001
+[2020.08.31-03.10.34:181][143]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+[2020.08.31-03.10.34:181][143]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_tooth_lowerAction.001
+[2020.08.31-03.10.34:243][143]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+[2020.08.31-03.10.34:243][143]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_face_upper_teethAction.001
+[2020.08.31-03.10.34:297][143]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_tooth_lowerAction.001
+[2020.08.31-03.10.34:362][143]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.31-03.10.34:363][143]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.08.31-03.10.34:482][144]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+[2020.08.31-03.10.34:482][144]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+[2020.08.31-03.10.35:927][304]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.10.35:931][304]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.10.37:578][437]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.10.37:760][437]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.08.31-03.10.38:071][437]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.10.38:083][437]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.08.31-03.10.38:236][437]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.10.38:714][437]LogSlate: Took 0.005668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.31-03.10.38:787][437]LogRenderer: Reallocating scene render targets to support 1144x884 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-03.10.40:134][515]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+[2020.08.31-03.10.40:168][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.10.40:186][515]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.10.40:688][515]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.31-03.10.42:366][608]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.42:366][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.43:486][675]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.43:486][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.44:517][736]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.44:517][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.46:226][836]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.10.46:233][836]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.10.46:236][836]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.46:236][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.46:380][836]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.46:380][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.46:404][836]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.46:404][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.10.46:497][836]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.10.46:497][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.11.27:582][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.08.31-03.11.27:588][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CoffeeBandicoot/Levels/Level1' took 0.029
+[2020.08.31-03.11.27:589][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL] ([1] browsable assets)...
+[2020.08.31-03.11.27:603][ 14]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL]
+[2020.08.31-03.11.27:603][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL]
+[2020.08.31-03.11.27:681][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Auto11A400361427A01674A725993280E4B07.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Auto1.uasset'
+[2020.08.31-03.11.27:683][ 14]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton] ([1] browsable assets)...
+[2020.08.31-03.11.27:684][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton]
+[2020.08.31-03.11.27:691][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Skeleton_Au0F2FB7ED485F6A228AFE519320E58621.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton_Auto1.uasset'
+[2020.08.31-03.11.27:692][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset] ([1] browsable assets)...
+[2020.08.31-03.11.27:703][ 14]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset.aztec_face_door_WILL_PhysicsAsset]
+[2020.08.31-03.11.27:703][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset]
+[2020.08.31-03.11.27:723][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_PhysicsAsseE3A28E46496A6BB7823938AF43B2B5A5.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset_Auto1.uasset'
+[2020.08.31-03.11.27:724][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001] ([1] browsable assets)...
+[2020.08.31-03.11.27:737][ 14]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001]
+[2020.08.31-03.11.27:737][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001]
+[2020.08.31-03.11.27:755][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Anim_aztec_AEE9638B4BBA67E633A7FE8772E247CC.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001_Auto1.uasset'
+[2020.08.31-03.11.27:756][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001] ([1] browsable assets)...
+[2020.08.31-03.11.27:766][ 14]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001]
+[2020.08.31-03.11.27:766][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001]
+[2020.08.31-03.11.27:782][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Anim_aztec_90E8408740F5362ACD12288B83A5E2CE.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001_Auto1.uasset'
+[2020.08.31-03.11.27:784][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001] ([1] browsable assets)...
+[2020.08.31-03.11.27:795][ 14]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001]
+[2020.08.31-03.11.27:795][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001]
+[2020.08.31-03.11.27:809][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Anim_aztec_841A19134413938F2DF62A97EE4CBAC2.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001_Auto1.uasset'
+[2020.08.31-03.11.27:810][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001] ([1] browsable assets)...
+[2020.08.31-03.11.27:822][ 14]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001]
+[2020.08.31-03.11.27:822][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001]
+[2020.08.31-03.11.27:837][ 14]LogSavePackage: Moving 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/aztec_face_door_WILL_Anim_aztec_514D98FD45709A2FE8AAD996D034DDBE.tmp' to 'C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Saved/Autosaves/Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001_Auto1.uasset'
+[2020.08.31-03.11.27:838][ 14]LogFileHelpers: Auto-saving content packages took 0.250
+[2020.08.31-03.14.45:433][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.08.31-03.14.46:312][846]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.14.47:048][846]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset.aztec_face_door_WILL_PhysicsAsset
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton.aztec_face_door_WILL_Skeleton
+[2020.08.31-03.14.48:638][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.31-03.14.51:580][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx)
+[2020.08.31-03.14.51:590][  0]LogFbx: Loading FBX Scene from C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx
+[2020.08.31-03.14.51:595][  0]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.31-03.14.54:809][  0]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.31-03.14.54:871][  0]LogFbx: Display: Triangulating static mesh aztec_tooth_lower
+[2020.08.31-03.14.54:890][  0]LogStaticMesh: Building static mesh aztec_face_door_WILL...
+[2020.08.31-03.14.54:906][  0]LogStaticMesh: Built static mesh [0.02s] /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.14.54:922][  0]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.31-03.14.56:391][164]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.14.56:397][164]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.14.57:401][274]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.14.57:723][274]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.14.57:723][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.14.57:972][274]LogRenderer: Reallocating scene render targets to support 1144x920 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-03.14.59:630][400]LogSlate: Window 'aztec_face_door_WILL' being destroyed
+[2020.08.31-03.14.59:636][400]LogSlate: Window 'aztec_face_door_WILL' being destroyed
+[2020.08.31-03.14.59:638][400]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.14.59:638][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.00:524][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.08.31-03.15.01:437][483]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.15.01:558][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.08.31-03.15.04:268][614]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx)
+[2020.08.31-03.15.04:279][614]LogFbx: Loading FBX Scene from C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx
+[2020.08.31-03.15.04:285][614]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.31-03.15.06:905][614]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.31-03.15.06:965][614]LogFbx: Triangulating skeletal mesh aztec_tooth_lower
+[2020.08.31-03.15.06:980][614]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2020.08.31-03.15.06:990][614]LogSkeletalMesh: Section 0: 207 vertices, 1 active bones
+[2020.08.31-03.15.06:990][614]LogSkeletalMesh: Section 0: Material=0, 240 triangles
+[2020.08.31-03.15.06:991][614]LogSkeletalMesh: Building Skeletal Mesh aztec_face_door_WILL...
+[2020.08.31-03.15.06:999][614]LogSkeletalMesh: Section 0: 207 vertices, 1 active bones
+[2020.08.31-03.15.06:999][614]LogSkeletalMesh: Section 0: Material=0, 240 triangles
+[2020.08.31-03.15.07:000][614]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.15.07:008][614]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.08.31-03.15.07:008][614]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.07:008][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.07:015][614]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.07:016][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.07:017][614]LogFbx: SortedLinks :(0) aztec_tooth_lower
+[2020.08.31-03.15.07:017][614]LogFbx: SortedLinks :(0) aztec_tooth_lower
+[2020.08.31-03.15.07:017][614]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_face_upper_teethAction.001
+[2020.08.31-03.15.07:025][614]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+[2020.08.31-03.15.07:025][614]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_tooth_lowerAction.001
+[2020.08.31-03.15.07:032][614]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+[2020.08.31-03.15.07:037][614]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.31-03.15.07:038][614]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.08.31-03.15.08:415][761]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.15.08:420][761]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.15.10:060][903]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.15.10:067][903]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.15.10:160][903]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.15.11:712][971]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+[2020.08.31-03.15.11:718][971]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.15.11:735][971]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.15.12:184][971]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.31-03.15.15:146][137]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.15:146][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.16:518][215]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.15.16:524][215]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.15.16:524][215]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.16:524][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.16:668][215]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.16:668][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.16:691][215]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.16:691][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.16:788][215]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.16:788][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.18:007][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.08.31-03.15.19:031][324]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.15.19:778][324]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset.aztec_face_door_WILL_PhysicsAsset
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton.aztec_face_door_WILL_Skeleton
+[2020.08.31-03.15.20:348][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.08.31-03.15.52:230][646]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx)
+[2020.08.31-03.15.52:242][646]LogFbx: Loading FBX Scene from C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx
+[2020.08.31-03.15.52:259][646]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.31-03.15.53:703][646]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.31-03.15.53:767][646]LogFbx: Triangulating skeletal mesh aztec_face_door_main
+[2020.08.31-03.15.53:897][646]LogFbx: Triangulating skeletal mesh aztec_face_upper_teeth
+[2020.08.31-03.15.53:908][646]LogFbx: Triangulating skeletal mesh aztec_tooth_u_1
+[2020.08.31-03.15.53:917][646]LogFbx: Triangulating skeletal mesh aztec_tooth_u_2
+[2020.08.31-03.15.53:926][646]LogFbx: Triangulating skeletal mesh aztec_tooth_u_3
+[2020.08.31-03.15.53:935][646]LogFbx: Triangulating skeletal mesh aztec_tooth_u_4
+[2020.08.31-03.15.53:947][646]LogFbx: Triangulating skeletal mesh aztec_tooth_lower
+[2020.08.31-03.15.53:958][646]LogFbx: Triangulating skeletal mesh aztec_tooth_l_1
+[2020.08.31-03.15.53:969][646]LogFbx: Triangulating skeletal mesh aztec_tooth_l_2
+[2020.08.31-03.15.53:980][646]LogFbx: Triangulating skeletal mesh aztec_tooth_l_3
+[2020.08.31-03.15.53:988][646]LogFbx: Triangulating skeletal mesh aztec_tooth_l_4
+[2020.08.31-03.15.54:000][646]LogFbx: Triangulating skeletal mesh aztec_face_ crown_3
+[2020.08.31-03.15.54:018][646]LogFbx: Triangulating skeletal mesh aztec_face_crown_1
+[2020.08.31-03.15.54:036][646]LogFbx: Triangulating skeletal mesh aztec_face_crown_2
+[2020.08.31-03.15.54:056][646]LogFbx: Triangulating skeletal mesh aztec_face_crown_jewel
+[2020.08.31-03.15.54:067][646]LogFbx: Triangulating skeletal mesh aztec_face_brow
+[2020.08.31-03.15.54:118][646]LogFbx: Triangulating skeletal mesh aztec_face_eyes
+[2020.08.31-03.15.54:128][646]LogFbx: Triangulating skeletal mesh aztec_face_nose
+[2020.08.31-03.15.54:143][646]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 3
+[2020.08.31-03.15.54:419][646]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.15.54:420][646]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.15.54:421][646]LogSkeletalMesh: Building Skeletal Mesh aztec_face_door_WILL...
+[2020.08.31-03.15.54:688][646]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.15.54:689][646]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.15.54:710][646]LogSkeletalMesh: Built Skeletal Mesh [0.29s] /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.15.54:743][646]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.15.54:743][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.15.54:745][646]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.15.54:746][646]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.15.54:747][646]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.15.54:748][646]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_face_upper_teethAction.001
+[2020.08.31-03.15.54:800][646]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+[2020.08.31-03.15.54:800][646]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_tooth_lowerAction.001
+[2020.08.31-03.15.54:852][646]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+[2020.08.31-03.15.54:852][646]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_face_upper_teethAction.001
+[2020.08.31-03.15.54:901][646]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_tooth_lowerAction.001
+[2020.08.31-03.15.54:962][646]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.31-03.15.54:962][646]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.08.31-03.15.55:068][647]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+[2020.08.31-03.15.55:068][647]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+[2020.08.31-03.15.56:582][802]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.15.56:587][802]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.15.57:900][900]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.15.57:907][900]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.15.57:987][900]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.15.59:663][975]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+[2020.08.31-03.15.59:668][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.15.59:684][975]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.16.00:127][975]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.31-03.16.01:590][ 48]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.01:590][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.02:487][101]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.02:487][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.04:661][240]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.04:661][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.05:376][281]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.05:376][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.07:358][397]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.07:358][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.10:126][547]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001' being destroyed
+[2020.08.31-03.16.10:132][547]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001' being destroyed
+[2020.08.31-03.16.10:133][547]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.10:133][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.10:251][547]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.10:251][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.10:277][547]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.10:277][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.16.10:368][547]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.16.10:369][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.17.29:300][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.08.31-03.17.30:480][164]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.17.31:218][164]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton.aztec_face_door_WILL_Skeleton
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset.aztec_face_door_WILL_PhysicsAsset
+[2020.08.31-03.17.31:996][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.31-03.21.02:766][ 79]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx)
+[2020.08.31-03.21.02:777][ 79]LogFbx: Loading FBX Scene from C:/Users/Will/Documents/Unreal Projects/CoffeeBandicoot/Blender Assets/Assets/Aztc Face Door/aztec_face_door_WILL.fbx
+[2020.08.31-03.21.02:802][ 79]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.31-03.21.04:478][ 79]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.31-03.21.04:540][ 79]LogFbx: Triangulating skeletal mesh aztec_face_door_main
+[2020.08.31-03.21.04:673][ 79]LogFbx: Triangulating skeletal mesh aztec_face_upper_teeth
+[2020.08.31-03.21.04:684][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_u_1
+[2020.08.31-03.21.04:694][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_u_2
+[2020.08.31-03.21.04:703][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_u_3
+[2020.08.31-03.21.04:711][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_u_4
+[2020.08.31-03.21.04:722][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_lower
+[2020.08.31-03.21.04:731][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_l_1
+[2020.08.31-03.21.04:740][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_l_2
+[2020.08.31-03.21.04:749][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_l_3
+[2020.08.31-03.21.04:761][ 79]LogFbx: Triangulating skeletal mesh aztec_tooth_l_4
+[2020.08.31-03.21.04:770][ 79]LogFbx: Triangulating skeletal mesh aztec_face_ crown_3
+[2020.08.31-03.21.04:791][ 79]LogFbx: Triangulating skeletal mesh aztec_face_crown_1
+[2020.08.31-03.21.04:807][ 79]LogFbx: Triangulating skeletal mesh aztec_face_crown_2
+[2020.08.31-03.21.04:825][ 79]LogFbx: Triangulating skeletal mesh aztec_face_crown_jewel
+[2020.08.31-03.21.04:836][ 79]LogFbx: Triangulating skeletal mesh aztec_face_brow
+[2020.08.31-03.21.04:883][ 79]LogFbx: Triangulating skeletal mesh aztec_face_eyes
+[2020.08.31-03.21.04:891][ 79]LogFbx: Triangulating skeletal mesh aztec_face_nose
+[2020.08.31-03.21.04:908][ 79]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 3
+[2020.08.31-03.21.05:189][ 79]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.21.05:190][ 79]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.21.05:192][ 79]LogSkeletalMesh: Building Skeletal Mesh aztec_face_door_WILL...
+[2020.08.31-03.21.05:445][ 79]LogSkeletalMesh: Section 0: 6347 vertices, 18 active bones
+[2020.08.31-03.21.05:446][ 79]LogSkeletalMesh: Section 0: Material=0, 8888 triangles
+[2020.08.31-03.21.05:464][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.27s] /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.21.05:475][ 79]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.05:475][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:477][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(0) aztec_face_door_main
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(1) aztec_face_upper_teeth
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(2) aztec_tooth_u_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(3) aztec_tooth_u_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(4) aztec_tooth_u_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(5) aztec_tooth_u_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(6) aztec_tooth_lower
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(7) aztec_tooth_l_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(8) aztec_tooth_l_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(9) aztec_tooth_l_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(10) aztec_tooth_l_4
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(11) aztec_face_ crown_3
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(12) aztec_face_crown_1
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(13) aztec_face_crown_2
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(14) aztec_face_crown_jewel
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(15) aztec_face_brow
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(16) aztec_face_eyes
+[2020.08.31-03.21.05:478][ 79]LogFbx: SortedLinks :(17) aztec_face_nose
+[2020.08.31-03.21.05:480][ 79]LogFbx: Parsing AnimStack aztec_face_upper_teethAction.001
+[2020.08.31-03.21.05:538][ 79]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001
+[2020.08.31-03.21.05:538][ 79]LogFbx: Parsing AnimStack aztec_tooth_lowerAction.001
+[2020.08.31-03.21.05:599][ 79]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lowerAction_001
+[2020.08.31-03.21.05:599][ 79]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_face_upper_teethAction.001
+[2020.08.31-03.21.05:657][ 79]LogFbx: Parsing AnimStack aztec_face_upper_teeth|aztec_tooth_lowerAction.001
+[2020.08.31-03.21.05:712][ 79]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_face_upper_teethAction.001
+[2020.08.31-03.21.05:762][ 79]LogFbx: Parsing AnimStack aztec_tooth_lower|aztec_tooth_lowerAction.001
+[2020.08.31-03.21.05:831][ 79]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.31-03.21.05:831][ 79]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.08.31-03.21.05:932][ 80]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+[2020.08.31-03.21.05:932][ 80]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+[2020.08.31-03.21.05:946][ 81]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+[2020.08.31-03.21.05:946][ 81]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+[2020.08.31-03.21.07:635][265]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.21.07:639][265]LogSlate: Window 'Message Log' being destroyed
+[2020.08.31-03.21.09:112][375]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+[2020.08.31-03.21.09:119][375]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.21.09:197][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.21.10:858][448]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001
+[2020.08.31-03.21.10:864][448]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.31-03.21.10:883][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.31-03.21.11:307][448]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.31-03.21.13:961][598]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.13:961][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.14:917][655]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.14:917][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.16:470][747]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.16:470][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.17:444][804]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.17:444][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.18:318][855]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.18:318][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.19:134][901]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.19:134][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.26:097][316]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.26:097][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.26:724][353]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.26:724][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.27:563][400]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.27:563][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.28:799][470]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.21.28:805][470]LogSlate: Window 'aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001' being destroyed
+[2020.08.31-03.21.28:806][470]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.28:806][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.28:936][470]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.28:936][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.28:961][470]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.28:961][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.29:052][470]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.21.29:052][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.21.30:852][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.08.31-03.21.31:737][603]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.31-03.21.32:443][603]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL.aztec_face_door_WILL
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teeth_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_face_upper_teethAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lower_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Anim_aztec_tooth_lowerAction_001.aztec_face_door_WILL_Anim_aztec_tooth_lowerAction_001
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_PhysicsAsset.aztec_face_door_WILL_PhysicsAsset
+	Asset Name: /Game/CoffeeBandicoot/Props/Aztec/aztec_face_door_WILL_Skeleton.aztec_face_door_WILL_Skeleton
+[2020.08.31-03.21.33:344][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.08.31-03.32.32:027][338]LogSlate: Window 'Message' being destroyed
+[2020.08.31-03.32.32:035][338]Message dialog closed, result: Yes, title: Message, text: Plugin 'Python Editor Script Plugin' is a beta version and might be unstable or removed without notice. Please use with caution. Are you sure you want to enable the plugin?
+[2020.08.31-03.33.13:446][416]Cmd: CLOSE_SLATE_MAINFRAME
+[2020.08.31-03.33.13:458][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.08.31-03.33.13:577][416]LogSlate: Window 'Plugins' being destroyed
+[2020.08.31-03.33.13:585][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.08.31-03.33.13:588][416]LogSlate: Window 'CoffeeBandicoot - Unreal Editor' being destroyed
+[2020.08.31-03.33.13:776][417]Cmd: QUIT_EDITOR
+[2020.08.31-03.33.13:776][417]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.08.31-03.33.13:795][417]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.08.31-03.33.13:916][417]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.31-03.33.13:965][417]LogExit: Preparing to exit.
+[2020.08.31-03.33.14:677][417]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:677][417]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:678][417]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:678][417]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:678][417]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:678][417]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:678][417]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:746][417]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.33.14:747][417]LogExit: Editor shut down
+[2020.08.31-03.33.14:748][417]LogExit: Transaction tracking system shut down
+[2020.08.31-03.33.14:762][417]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.08.31-03.33.15:097][417]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207CF642600), frame # 17417
+[2020.08.31-03.33.15:097][417]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207CB0F7600), frame # 17417
+[2020.08.31-03.33.15:159][417]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000207D9842A00), frame # 17417
+[2020.08.31-03.33.15:159][417]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207D96E51C0), frame # 17417
+[2020.08.31-03.33.15:160][417]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207D983AA00), frame # 17417
+[2020.08.31-03.33.15:222][417]LogExit: Object subsystem successfully closed.
+[2020.08.31-03.33.15:271][417]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.08.31-03.33.15:370][417]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (792)
+[2020.08.31-03.33.15:370][417]LogModuleManager: Shutting down and abandoning module SequencerWidgets (790)
+[2020.08.31-03.33.15:370][417]LogModuleManager: Shutting down and abandoning module AnimationEditor (788)
+[2020.08.31-03.33.15:370][417]LogModuleManager: Shutting down and abandoning module PinnedCommandList (786)
+[2020.08.31-03.33.15:370][417]LogModuleManager: Shutting down and abandoning module SkeletonEditor (784)
+[2020.08.31-03.33.15:371][417]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (782)
+[2020.08.31-03.33.15:371][417]LogModuleManager: Shutting down and abandoning module SceneOutliner (780)
+[2020.08.31-03.33.15:371][417]LogModuleManager: Shutting down and abandoning module AddContentDialog (778)
+[2020.08.31-03.33.15:374][417]LogModuleManager: Shutting down and abandoning module WidgetCarousel (777)
+[2020.08.31-03.33.15:374][417]LogModuleManager: Shutting down and abandoning module EditorWidgets (774)
+[2020.08.31-03.33.15:374][417]LogModuleManager: Shutting down and abandoning module CollectionManager (772)
+[2020.08.31-03.33.15:375][417]LogModuleManager: Shutting down and abandoning module StatsViewer (770)
+[2020.08.31-03.33.15:376][417]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (768)
+[2020.08.31-03.33.15:376][417]LogModuleManager: Shutting down and abandoning module FoliageEdit (766)
+[2020.08.31-03.33.15:377][417]LogModuleManager: Shutting down and abandoning module LandscapeEditor (764)
+[2020.08.31-03.33.15:381][417]LogModuleManager: Shutting down and abandoning module MeshPaintMode (762)
+[2020.08.31-03.33.15:381][417]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (760)
+[2020.08.31-03.33.15:381][417]LogModuleManager: Shutting down and abandoning module ActorPickerMode (758)
+[2020.08.31-03.33.15:381][417]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (756)
+[2020.08.31-03.33.15:383][417]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (754)
+[2020.08.31-03.33.15:384][417]LogModuleManager: Shutting down and abandoning module AutomationWorker (752)
+[2020.08.31-03.33.15:384][417]LogModuleManager: Shutting down and abandoning module OculusMR (750)
+[2020.08.31-03.33.15:385][417]LogModuleManager: Shutting down and abandoning module GooglePADEditor (748)
+[2020.08.31-03.33.15:385][417]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (746)
+[2020.08.31-03.33.15:385][417]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (744)
+[2020.08.31-03.33.15:386][417]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (742)
+[2020.08.31-03.33.15:387][417]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (740)
+[2020.08.31-03.33.15:389][417]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (738)
+[2020.08.31-03.33.15:391][417]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (736)
+[2020.08.31-03.33.15:391][417]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (734)
+[2020.08.31-03.33.15:392][417]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (732)
+[2020.08.31-03.33.15:392][417]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (730)
+[2020.08.31-03.33.15:392][417]LogModuleManager: Shutting down and abandoning module WebMMedia (728)
+[2020.08.31-03.33.15:392][417]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (726)
+[2020.08.31-03.33.15:394][417]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (724)
+[2020.08.31-03.33.15:394][417]LogModuleManager: Shutting down and abandoning module SequenceRecorder (723)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (720)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (718)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (716)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (714)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (712)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (710)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (708)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (706)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (704)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (702)
+[2020.08.31-03.33.15:395][417]LogModuleManager: Shutting down and abandoning module PlanarCut (700)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module CharacterAI (698)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module TextureAlignMode (696)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module BspMode (694)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module PlacementMode (693)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module GeometryMode (690)
+[2020.08.31-03.33.15:396][417]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (688)
+[2020.08.31-03.33.15:397][417]LogModuleManager: Shutting down and abandoning module SmartSnapping (686)
+[2020.08.31-03.33.15:397][417]LogModuleManager: Shutting down and abandoning module SessionServices (684)
+[2020.08.31-03.33.15:397][417]LogModuleManager: Shutting down and abandoning module MeshPaint (682)
+[2020.08.31-03.33.15:399][417]LogModuleManager: Shutting down and abandoning module ViewportSnapping (680)
+[2020.08.31-03.33.15:399][417]LogModuleManager: Shutting down and abandoning module ViewportInteraction (678)
+[2020.08.31-03.33.15:399][417]LogModuleManager: Shutting down and abandoning module ClothPainter (676)
+[2020.08.31-03.33.15:400][417]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (675)
+[2020.08.31-03.33.15:401][417]LogModuleManager: Shutting down and abandoning module LogVisualizer (672)
+[2020.08.31-03.33.15:403][417]LogModuleManager: Shutting down and abandoning module IntroTutorials (670)
+[2020.08.31-03.33.15:404][417]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (669)
+[2020.08.31-03.33.15:405][417]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (666)
+[2020.08.31-03.33.15:405][417]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (664)
+[2020.08.31-03.33.15:406][417]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (662)
+[2020.08.31-03.33.15:406][417]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (661)
+[2020.08.31-03.33.17:377][417]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (658)
+[2020.08.31-03.33.17:377][417]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (656)
+[2020.08.31-03.33.17:377][417]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (654)
+[2020.08.31-03.33.17:377][417]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (652)
+[2020.08.31-03.33.17:377][417]LogModuleManager: Shutting down and abandoning module TraceInsights (650)
+[2020.08.31-03.33.17:382][417]LogModuleManager: Shutting down and abandoning module TraceServices (649)
+[2020.08.31-03.33.17:384][417]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (646)
+[2020.08.31-03.33.17:385][417]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (644)
+[2020.08.31-03.33.17:385][417]LogModuleManager: Shutting down and abandoning module InputBindingEditor (642)
+[2020.08.31-03.33.17:385][417]LogModuleManager: Shutting down and abandoning module MergeActors (640)
+[2020.08.31-03.33.17:386][417]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (638)
+[2020.08.31-03.33.17:387][417]LogModuleManager: Shutting down and abandoning module LocalizationService (637)
+[2020.08.31-03.33.17:387][417]LogModuleManager: Shutting down and abandoning module HardwareTargeting (634)
+[2020.08.31-03.33.17:387][417]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (632)
+[2020.08.31-03.33.17:388][417]LogModuleManager: Shutting down and abandoning module UndoHistory (630)
+[2020.08.31-03.33.17:388][417]LogModuleManager: Shutting down and abandoning module XmlParser (628)
+[2020.08.31-03.33.17:389][417]LogModuleManager: Shutting down and abandoning module Blutility (626)
+[2020.08.31-03.33.17:389][417]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (624)
+[2020.08.31-03.33.17:389][417]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (623)
+[2020.08.31-03.33.17:389][417]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (620)
+[2020.08.31-03.33.17:389][417]LogModuleManager: Shutting down and abandoning module SettingsEditor (618)
+[2020.08.31-03.33.17:391][417]LogModuleManager: Shutting down and abandoning module ProjectLauncher (616)
+[2020.08.31-03.33.17:391][417]LogModuleManager: Shutting down and abandoning module SessionFrontend (614)
+[2020.08.31-03.33.17:392][417]LogModuleManager: Shutting down and abandoning module ProfilerClient (612)
+[2020.08.31-03.33.17:392][417]LogModuleManager: Shutting down and abandoning module DeviceManager (610)
+[2020.08.31-03.33.17:393][417]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (609)
+[2020.08.31-03.33.17:426][417]LogModuleManager: Shutting down and abandoning module AutomationController (606)
+[2020.08.31-03.33.17:426][417]LogModuleManager: Shutting down and abandoning module AutomationWindow (604)
+[2020.08.31-03.33.17:427][417]LogModuleManager: Shutting down and abandoning module Layers (602)
+[2020.08.31-03.33.17:430][417]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (600)
+[2020.08.31-03.33.17:430][417]LogModuleManager: Shutting down and abandoning module DetailCustomizations (598)
+[2020.08.31-03.33.17:430][417]LogModuleManager: Shutting down and abandoning module PackagesDialog (596)
+[2020.08.31-03.33.17:431][417]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (594)
+[2020.08.31-03.33.17:435][417]LogModuleManager: Shutting down and abandoning module Persona (592)
+[2020.08.31-03.33.17:435][417]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (591)
+[2020.08.31-03.33.17:435][417]LogModuleManager: Shutting down and abandoning module AnimGraph (589)
+[2020.08.31-03.33.17:436][417]LogModuleManager: Shutting down and abandoning module Kismet (586)
+[2020.08.31-03.33.17:439][417]LogModuleManager: Shutting down and abandoning module KismetWidgets (585)
+[2020.08.31-03.33.17:439][417]LogModuleManager: Shutting down and abandoning module GraphEditor (582)
+[2020.08.31-03.33.17:441][417]LogModuleManager: Shutting down and abandoning module StructViewer (580)
+[2020.08.31-03.33.17:441][417]LogModuleManager: Shutting down and abandoning module ClassViewer (578)
+[2020.08.31-03.33.17:441][417]LogModuleManager: Shutting down and abandoning module Toolbox (576)
+[2020.08.31-03.33.17:441][417]LogModuleManager: Shutting down and abandoning module ModuleUI (574)
+[2020.08.31-03.33.17:442][417]LogModuleManager: Shutting down and abandoning module OutputLog (572)
+[2020.08.31-03.33.17:444][417]LogModuleManager: Shutting down and abandoning module GammaUI (570)
+[2020.08.31-03.33.17:444][417]LogModuleManager: Shutting down and abandoning module Documentation (568)
+[2020.08.31-03.33.17:444][417]LogModuleManager: Shutting down and abandoning module LiveCoding (566)
+[2020.08.31-03.33.17:445][417]LogModuleManager: Shutting down and abandoning module LevelSequence (564)
+[2020.08.31-03.33.17:445][417]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (562)
+[2020.08.31-03.33.17:445][417]LogModuleManager: Shutting down and abandoning module MovieScene (560)
+[2020.08.31-03.33.17:445][417]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (558)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module LauncherPlatform (556)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module AnalyticsET (554)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module PortalServices (552)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module PortalRpc (550)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module MessagingRpc (548)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (546)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module AudioMixerCore (545)
+[2020.08.31-03.33.17:446][417]LogModuleManager: Shutting down and abandoning module AIModule (542)
+[2020.08.31-03.33.17:447][417]LogModuleManager: Shutting down and abandoning module GameplayDebugger (541)
+[2020.08.31-03.33.17:448][417]LogModuleManager: Shutting down and abandoning module AITestSuite (539)
+[2020.08.31-03.33.17:448][417]LogModuleManager: Shutting down and abandoning module NavigationSystem (537)
+[2020.08.31-03.33.17:448][417]LogModuleManager: Shutting down and abandoning module ProfilerService (534)
+[2020.08.31-03.33.17:463][417]LogModuleManager: Shutting down and abandoning module TaskGraph (532)
+[2020.08.31-03.33.17:464][417]LogModuleManager: Shutting down and abandoning module ScreenshotTools (530)
+[2020.08.31-03.33.17:464][417]LogModuleManager: Shutting down and abandoning module SynthesisEditor (528)
+[2020.08.31-03.33.17:464][417]LogModuleManager: Shutting down and abandoning module Synthesis (526)
+[2020.08.31-03.33.17:465][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (524)
+[2020.08.31-03.33.17:465][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (522)
+[2020.08.31-03.33.17:465][417]LogModuleManager: Shutting down and abandoning module OculusEditor (520)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module OculusInput (518)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (516)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module GooglePAD (514)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module EditableMesh (512)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (510)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module CableComponent (508)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module AudioCapture (506)
+[2020.08.31-03.33.17:466][417]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (505)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module AssetTags (502)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (500)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (498)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module AppleImageUtils (496)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module AndroidPermission (494)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (492)
+[2020.08.31-03.33.17:467][417]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (490)
+[2020.08.31-03.33.17:468][417]LogModuleManager: Shutting down and abandoning module TemplateSequence (488)
+[2020.08.31-03.33.17:468][417]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (486)
+[2020.08.31-03.33.17:469][417]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (484)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (482)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (480)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (479)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (476)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (474)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MediaCompositing (472)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module ImgMedia (470)
+[2020.08.31-03.33.17:470][417]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (468)
+[2020.08.31-03.33.17:471][417]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (466)
+[2020.08.31-03.33.17:471][417]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (464)
+[2020.08.31-03.33.17:471][417]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (462)
+[2020.08.31-03.33.17:471][417]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (460)
+[2020.08.31-03.33.17:471][417]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (458)
+[2020.08.31-03.33.17:474][417]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (456)
+[2020.08.31-03.33.17:475][417]LogModuleManager: Shutting down and abandoning module MeshConversion (454)
+[2020.08.31-03.33.17:475][417]LogModuleManager: Shutting down and abandoning module DynamicMesh (452)
+[2020.08.31-03.33.17:476][417]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (450)
+[2020.08.31-03.33.17:476][417]LogModuleManager: Shutting down and abandoning module GeometricObjects (448)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (446)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (445)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (442)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (440)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (438)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (436)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module ChaosNiagara (434)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module FractureEditor (432)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (430)
+[2020.08.31-03.33.17:477][417]LogModuleManager: Shutting down and abandoning module ChaosCloth (428)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module BackChannel (426)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (424)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module AutomationUtils (422)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module AlembicImporter (420)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module AlembicLibrary (419)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module GeometryCache (418)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (417)
+[2020.08.31-03.33.17:478][417]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (412)
+[2020.08.31-03.33.17:479][417]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (410)
+[2020.08.31-03.33.17:480][417]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (408)
+[2020.08.31-03.33.17:480][417]LogModuleManager: Shutting down and abandoning module PluginBrowser (406)
+[2020.08.31-03.33.17:480][417]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (404)
+[2020.08.31-03.33.17:480][417]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (402)
+[2020.08.31-03.33.17:481][417]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (400)
+[2020.08.31-03.33.17:481][417]LogModuleManager: Shutting down and abandoning module CurveEditorTools (398)
+[2020.08.31-03.33.17:482][417]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (396)
+[2020.08.31-03.33.17:482][417]LogModuleManager: Shutting down and abandoning module CryptoKeys (394)
+[2020.08.31-03.33.17:482][417]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (392)
+[2020.08.31-03.33.17:483][417]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (390)
+[2020.08.31-03.33.17:483][417]LogModuleManager: Shutting down and abandoning module UObjectPlugin (388)
+[2020.08.31-03.33.17:483][417]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (386)
+[2020.08.31-03.33.17:484][417]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (384)
+[2020.08.31-03.33.17:484][417]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (382)
+[2020.08.31-03.33.17:486][417]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (380)
+[2020.08.31-03.33.17:487][417]LogModuleManager: Shutting down and abandoning module GitSourceControl (378)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module SourceControl (377)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (374)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (372)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (370)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (368)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (366)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (364)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (362)
+[2020.08.31-03.33.17:488][417]LogModuleManager: Shutting down and abandoning module Paper2DEditor (360)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module SoundFields (358)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module SignificanceManager (356)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (354)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (352)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (348)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module ActorSequence (346)
+[2020.08.31-03.33.17:490][417]LogModuleManager: Shutting down and abandoning module UdpMessaging (344)
+[2020.08.31-03.33.17:592][417]LogModuleManager: Shutting down and abandoning module TcpMessaging (342)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (340)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (338)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (336)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (334)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (332)
+[2020.08.31-03.33.17:693][417]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (330)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (328)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (326)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (324)
+[2020.08.31-03.33.17:693][417]LogModuleManager: Shutting down and abandoning module MagicLeapController (322)
+[2020.08.31-03.33.17:695][417]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.08.31-03.33.17:697][417]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (320)
+[2020.08.31-03.33.17:697][417]LogModuleManager: Shutting down and abandoning module MagicLeapAR (318)
+[2020.08.31-03.33.17:697][417]LogModuleManager: Shutting down and abandoning module AugmentedReality (317)
+[2020.08.31-03.33.17:697][417]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (314)
+[2020.08.31-03.33.17:697][417]LogModuleManager: Shutting down and abandoning module Niagara (312)
+[2020.08.31-03.33.17:698][417]LogModuleManager: Shutting down and abandoning module SignalProcessing (311)
+[2020.08.31-03.33.17:698][417]LogModuleManager: Shutting down and abandoning module NiagaraEditor (309)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module NiagaraCore (306)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (304)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (302)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module FacialAnimation (300)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module DataValidation (298)
+[2020.08.31-03.33.17:702][417]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (296)
+[2020.08.31-03.33.17:705][417]LogModuleManager: Shutting down and abandoning module LevelEditor (295)
+[2020.08.31-03.33.17:708][417]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (294)
+[2020.08.31-03.33.17:708][417]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (292)
+[2020.08.31-03.33.17:709][417]LogModuleManager: Shutting down and abandoning module MainFrame (290)
+[2020.08.31-03.33.17:709][417]LogModuleManager: Shutting down and abandoning module HotReload (289)
+[2020.08.31-03.33.17:710][417]LogModuleManager: Shutting down and abandoning module ToolMenus (285)
+[2020.08.31-03.33.17:710][417]LogModuleManager: Shutting down and abandoning module TreeMap (283)
+[2020.08.31-03.33.17:711][417]LogModuleManager: Shutting down and abandoning module AnimationSharing (280)
+[2020.08.31-03.33.17:711][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (278)
+[2020.08.31-03.33.17:711][417]LogModuleManager: Shutting down and abandoning module Paper2D (276)
+[2020.08.31-03.33.17:711][417]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (274)
+[2020.08.31-03.33.17:711][417]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (272)
+[2020.08.31-03.33.17:712][417]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (270)
+[2020.08.31-03.33.17:712][417]LogModuleManager: Shutting down and abandoning module PacketHandler (268)
+[2020.08.31-03.33.17:712][417]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (266)
+[2020.08.31-03.33.17:712][417]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (264)
+[2020.08.31-03.33.17:713][417]LogModuleManager: Shutting down and abandoning module MediaAssets (262)
+[2020.08.31-03.33.17:713][417]LogModuleManager: Shutting down and abandoning module Overlay (260)
+[2020.08.31-03.33.17:713][417]LogModuleManager: Shutting down and abandoning module OverlayEditor (259)
+[2020.08.31-03.33.17:713][417]LogModuleManager: Shutting down and abandoning module VREditor (256)
+[2020.08.31-03.33.17:714][417]LogModuleManager: Shutting down and abandoning module StringTableEditor (254)
+[2020.08.31-03.33.17:714][417]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (252)
+[2020.08.31-03.33.17:714][417]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (250)
+[2020.08.31-03.33.17:717][417]LogModuleManager: Shutting down and abandoning module FunctionalTesting (248)
+[2020.08.31-03.33.17:717][417]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (246)
+[2020.08.31-03.33.17:718][417]LogModuleManager: Shutting down and abandoning module UMG (244)
+[2020.08.31-03.33.17:719][417]LogModuleManager: Shutting down and abandoning module UMGEditor (243)
+[2020.08.31-03.33.17:720][417]LogModuleManager: Shutting down and abandoning module MessageLog (241)
+[2020.08.31-03.33.17:720][417]LogModuleManager: Shutting down and abandoning module MaterialEditor (239)
+[2020.08.31-03.33.17:721][417]LogModuleManager: Shutting down and abandoning module ContentBrowser (238)
+[2020.08.31-03.33.17:722][417]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.08.31-03.33.17:722][417]LogModuleManager: Shutting down and abandoning module SlateReflector (230)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module Slate (228)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module SlateCore (226)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (224)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module UnrealEd (222)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module MRMesh (220)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (218)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (216)
+[2020.08.31-03.33.17:725][417]LogModuleManager: Shutting down and abandoning module XAudio2 (214)
+[2020.08.31-03.33.17:726][417]LogModuleManager: Shutting down and abandoning module Networking (212)
+[2020.08.31-03.33.17:726][417]LogModuleManager: Shutting down and abandoning module Core (210)
+[2020.08.31-03.33.17:726][417]LogModuleManager: Shutting down and abandoning module MovieSceneTools (208)
+[2020.08.31-03.33.17:727][417]LogModuleManager: Shutting down and abandoning module CurveEditor (207)
+[2020.08.31-03.33.17:728][417]LogModuleManager: Shutting down and abandoning module Sequencer (205)
+[2020.08.31-03.33.17:733][417]LogModuleManager: Shutting down and abandoning module EditorStyle (204)
+[2020.08.31-03.33.17:734][417]LogModuleManager: Shutting down and abandoning module KismetCompiler (200)
+[2020.08.31-03.33.17:734][417]LogModuleManager: Shutting down and abandoning module MeshBuilder (198)
+[2020.08.31-03.33.17:734][417]LogModuleManager: Shutting down and abandoning module MeshUtilities (196)
+[2020.08.31-03.33.17:734][417]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (195)
+[2020.08.31-03.33.17:735][417]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (194)
+[2020.08.31-03.33.17:735][417]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (193)
+[2020.08.31-03.33.17:735][417]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (191)
+[2020.08.31-03.33.17:736][417]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (189)
+[2020.08.31-03.33.17:737][417]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (187)
+[2020.08.31-03.33.17:737][417]LogModuleManager: Shutting down and abandoning module MaterialBaking (183)
+[2020.08.31-03.33.17:738][417]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (178)
+[2020.08.31-03.33.17:738][417]LogModuleManager: Shutting down and abandoning module DerivedDataCache (176)
+[2020.08.31-03.33.17:738][417]LogModuleManager: Shutting down and abandoning module XGEController (174)
+[2020.08.31-03.33.17:738][417]LogXGEController: Cleaning working directory: C:/Users/Will/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.31-03.33.17:739][417]LogModuleManager: Shutting down and abandoning module TargetPlatform (172)
+[2020.08.31-03.33.17:739][417]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (171)
+[2020.08.31-03.33.17:740][417]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (169)
+[2020.08.31-03.33.17:740][417]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (167)
+[2020.08.31-03.33.17:741][417]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (165)
+[2020.08.31-03.33.17:741][417]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (163)
+[2020.08.31-03.33.17:742][417]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (161)
+[2020.08.31-03.33.17:742][417]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (159)
+[2020.08.31-03.33.17:742][417]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (157)
+[2020.08.31-03.33.17:742][417]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (155)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (153)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (149)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (141)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (139)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (137)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (135)
+[2020.08.31-03.33.17:743][417]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (133)
+[2020.08.31-03.33.17:759][417]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.08.31-03.33.17:767][417]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (129)
+[2020.08.31-03.33.17:768][417]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (127)
+[2020.08.31-03.33.17:768][417]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (125)
+[2020.08.31-03.33.17:768][417]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.08.31-03.33.17:769][417]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2020.08.31-03.33.17:769][417]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2020.08.31-03.33.17:769][417]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.08.31-03.33.17:770][417]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.08.31-03.33.17:770][417]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.08.31-03.33.17:773][417]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.08.31-03.33.17:796][417]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.08.31-03.33.17:796][417]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.08.31-03.33.17:796][417]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.08.31-03.33.17:796][417]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.08.31-03.33.17:797][417]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.08.31-03.33.17:797][417]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.08.31-03.33.17:798][417]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.08.31-03.33.17:798][417]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.08.31-03.33.17:798][417]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.08.31-03.33.17:799][417]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.08.31-03.33.17:799][417]LogModuleManager: Shutting down and abandoning module AVEncoder (90)
+[2020.08.31-03.33.17:799][417]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.08.31-03.33.17:800][417]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.08.31-03.33.17:800][417]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.08.31-03.33.17:800][417]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.08.31-03.33.17:800][417]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.08.31-03.33.17:804][417]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.08.31-03.33.17:805][417]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.08.31-03.33.17:837][417]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.08.31-03.33.17:837][417]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.08.31-03.33.17:837][417]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB72DFD81-4954-9D99-A3A8-5390790EF3A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=9fc5e99c4450049c6bad869b2389b4b7%7Ce5f82cf47ee74f07afb31968bd09c540%7C958db0b6-a622-4739-b188-02aa7d68dc18&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.08.31-03.33.17:841][417]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.08.31-03.33.17:845][417]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.08.31-03.33.17:852][417]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.08.31-03.33.17:853][417]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.08.31-03.33.17:853][417]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.08.31-03.33.17:856][417]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.08.31-03.33.17:857][417]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.08.31-03.33.17:857][417]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.08.31-03.33.17:857][417]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.08.31-03.33.17:858][417]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.08.31-03.33.17:859][417]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.08.31-03.33.17:860][417]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.08.31-03.33.17:860][417]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.08.31-03.33.17:860][417]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.08.31-03.33.17:860][417]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.08.31-03.33.17:862][417]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.08.31-03.33.17:863][417]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.08.31-03.33.17:863][417]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.08.31-03.33.17:863][417]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.08.31-03.33.17:864][417]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.08.31-03.33.17:864][417]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.08.31-03.33.17:864][417]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.08.31-03.33.17:864][417]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.08.31-03.33.17:864][417]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.08.31-03.33.17:865][417]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.08.31-03.33.17:865][417]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.08.31-03.33.17:865][417]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.08.31-03.33.17:865][417]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.08.31-03.33.17:870][417]LogD3D11RHI: Shutdown
+[2020.08.31-03.33.17:870][417]LogD3D11RHI: CleanupD3DDevice
+[2020.08.31-03.33.17:889][417]LogExit: Exiting.
+[2020.08.31-03.33.17:932][417]Log file closed, 08/31/20 15:33:17
